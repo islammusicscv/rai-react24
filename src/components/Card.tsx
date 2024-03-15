@@ -1,4 +1,13 @@
+import {useState} from "react";
+import * as axios from "axios";
+
 const Card = () => {
+    const [movie, setMovie] = useState('');
+
+    const getMovie = () => {
+        const response = axios.get("http://www.omdbapi.com/?apikey=4714c72a&s=Dune: Part Two");
+    }
+
   return (
       <>
           <div className="album py-5 bg-body-tertiary">
