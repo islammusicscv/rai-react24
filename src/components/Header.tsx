@@ -13,11 +13,10 @@ const Header = () => {
                                   contact information.</p>
                           </div>
                           <div className="col-sm-4 offset-md-1 py-4">
-                              <h4>Contact</h4>
+                              <h4>Meni</h4>
                               <ul className="list-unstyled">
-                                  <li><a href="#" className="text-white">Follow on Twitter</a></li>
-                                  <li><a href="#" className="text-white">Like on Facebook</a></li>
-                                  <li><a href="#" className="text-white">Email me</a></li>
+                                  <li><a href="/" className="text-white">Home</a></li>
+                                  <li><a href="/search" className="text-white">Search</a></li>
                               </ul>
                           </div>
                       </div>
@@ -25,7 +24,7 @@ const Header = () => {
               </div>
               <div className="navbar navbar-dark bg-dark shadow-sm">
                   <div className="container">
-                      <a href="#" className="navbar-brand d-flex align-items-center">
+                      <a href="/" className="navbar-brand d-flex align-items-center">
                           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none"
                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                aria-hidden="true" className="me-2" viewBox="0 0 24 24">
